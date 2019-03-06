@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.6 (67491) - http://www.bohemiancoding.com/sketch -->
+    <title>icons/16px/profile</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M12,10.0001 L12,12.0001 L0,12.0001 L0,10.0001 C0,7.7901 1.58,7.0001 6,7.0001 C10.42,7.0001 12,7.7901 12,10.0001 Z M9,3.0001 C9,4.65685 7.65675,6.0001 6,6.0001 C4.34325,6.0001 3,4.65685 3,3.0001 C3,1.34335 4.34325,0.0001 6,0.0001 C7.65675,0.0001 9,1.34335 9,3.0001 Z" id="path-1"></path>
+    </defs>
+    <g id="icons/16px/profile" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="color/primary/normal" transform="translate(2.000000, 2.000000)">
+            <mask id="mask-2" fill="white">
+                <use xlink:href="#path-1"></use>
+            </mask>
+            <use id="Mask" fill="#000000" xlink:href="#path-1"></use>
+            <g mask="url(#mask-2)" fill="#00ACE8" fill-rule="nonzero" id="Rectangle">
+                <g transform="translate(-2.000000, -2.000000)">
+                    <rect x="0" y="0" width="16" height="16"></rect>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

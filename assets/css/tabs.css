@@ -1,0 +1,153 @@
+/* line 1, ../sass/tabs.scss */
+.Vv {
+  outline: 1px solid navy;
+}
+
+/* line 6, ../sass/tabs.scss */
+.btn-ankieteo-red {
+  width: 100%;
+  background-color: #EE245B;
+  Color: #fff;
+  font-weight: 500;
+}
+/* line 11, ../sass/tabs.scss */
+.btn-ankieteo-red:hover {
+  color: #fff;
+}
+/* line 14, ../sass/tabs.scss */
+.btn-ankieteo-red:focus {
+  outline: none;
+  box-shadow: none;
+}
+
+/* line 19, ../sass/tabs.scss */
+p {
+  margin: 0;
+}
+
+/* line 21, ../sass/tabs.scss */
+.tabs {
+  font-family: 'Roboto', sans-serif;
+}
+/* line 24, ../sass/tabs.scss */
+.tabs .nav-tabs.custom {
+  border: none;
+}
+/* line 27, ../sass/tabs.scss */
+.tabs .nav-tabs.custom li a {
+  padding: 0;
+  margin: 0 13px;
+  border: none;
+  font-size: 20px;
+}
+
+/* line 40, ../sass/tabs.scss */
+.pakiety {
+  margin-bottom: 25px;
+  text-align: center;
+}
+/* line 46, ../sass/tabs.scss */
+.pakiety .pakiety-header-img .col {
+  text-align: left;
+  height: 80px;
+}
+/* line 51, ../sass/tabs.scss */
+.pakiety .pakiety-header-img .pakiet-basic {
+  background-image: url("../img/basic.png");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: bottom;
+}
+/* line 58, ../sass/tabs.scss */
+.pakiety .pakiety-header-img .pakiet-premium {
+  background-image: url("../img/premium.png");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: left;
+}
+/* line 65, ../sass/tabs.scss */
+.pakiety .pakiety-header-img .pakiet-enterprise {
+  background-image: url("../img/enterprise.png");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: bottom;
+}
+/* line 76, ../sass/tabs.scss */
+.pakiety .pakiety-header .pakiet-basic {
+  background-image: url("../img/basic.png");
+  background-repeat: no-repeat;
+  background-size: 75%;
+  background-position: 0 0;
+  background-color: #ECF5FE;
+}
+/* line 84, ../sass/tabs.scss */
+.pakiety .pakiety-header .pakiet-premium {
+  background-image: url("../img/premium.png");
+  background-repeat: no-repeat;
+  background-size: 75%;
+  background-position: 0 0;
+  background-color: #ECF5FE;
+}
+/* line 92, ../sass/tabs.scss */
+.pakiety .pakiety-header .pakiet-enterprise {
+  background-image: url("../img/enterprise.png");
+  background-repeat: no-repeat;
+  background-size: 75%;
+  background-position: 0 0;
+  background-color: #ECF5FE;
+}
+/* line 100, ../sass/tabs.scss */
+.pakiety .pakiety-header .col {
+  position: relative;
+  text-align: left;
+  height: 150px;
+}
+/* line 105, ../sass/tabs.scss */
+.pakiety .pakiety-header .col h3 {
+  font-size: 20px;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #fff;
+}
+/* line 110, ../sass/tabs.scss */
+.pakiety .pakiety-header .col h3 + p {
+  position: absolute;
+  bottom: 10px;
+  font-size: 13px;
+  line-height: 20px;
+  font-weight: bold;
+}
+/* line 119, ../sass/tabs.scss */
+.pakiety .pakiety-header .col .red-circle {
+  position: absolute;
+  right: 10px;
+  bottom: 10px;
+  width: 90px;
+  height: 90px;
+  border-radius: 100%;
+  background-color: #EE245B;
+  font-size: 13px;
+}
+/* line 129, ../sass/tabs.scss */
+.pakiety .pakiety-header .col .red-circle p {
+  padding-top: 15px;
+  color: #fff;
+  text-align: center;
+}
+/* line 135, ../sass/tabs.scss */
+.pakiety .pakiety-header .col .red-circle p span {
+  font-weight: 900;
+  font-size: 25px;
+}
+/* line 145, ../sass/tabs.scss */
+.pakiety .qty-ankiet {
+  white-space: nowrap;
+}
+/* line 147, ../sass/tabs.scss */
+.pakiety .qty-ankiet .col {
+  background-color: #ECF5FE;
+}
+/* line 153, ../sass/tabs.scss */
+.pakiety .wiecej {
+  text-transform: uppercase;
+}

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.6 (67491) - http://www.bohemiancoding.com/sketch -->
+    <title>icons/16px/email</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M2,-1.77635684e-15 L14,-1.77635684e-15 C15.1,-1.77635684e-15 16,0.9 16,2 L16,10 C16,11.1 15.1,12 14,12 L2,12 C0.9,12 3.19744231e-14,11.1 3.19744231e-14,10 L0.01,2 C0.01,0.9 0.9,-1.77635684e-15 2,-1.77635684e-15 Z M14,1.69657287 L7.99993034,5.13558108 L2,1.6979374 L2,3.42669542 L8.00006966,6.86441892 L14,3.42549057 L14,1.69657287 Z" id="path-1"></path>
+    </defs>
+    <g id="icons/16px/email" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="color/primary/normal" transform="translate(0.000000, 2.000000)">
+            <mask id="mask-2" fill="white">
+                <use xlink:href="#path-1"></use>
+            </mask>
+            <use id="Combined-Shape" fill="#000000" xlink:href="#path-1"></use>
+            <g mask="url(#mask-2)" fill="#00ACE8" fill-rule="nonzero" id="Rectangle">
+                <g transform="translate(0.000000, -2.000000)">
+                    <rect x="0" y="0" width="16" height="16"></rect>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

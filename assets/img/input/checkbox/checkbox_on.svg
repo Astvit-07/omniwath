@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="15px" height="15px" viewBox="0 0 15 15" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.6 (67491) - http://www.bohemiancoding.com/sketch -->
+    <title>input/checkbox/on</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <polygon id="path-1" points="0 0 9 0 9 7 0 7"></polygon>
+    </defs>
+    <g id="input/checkbox/on" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <rect id="Rectangle-Copy-8" stroke="#A2A9B0" fill-rule="nonzero" x="0.5" y="0.5" width="14" height="14" rx="3"></rect>
+        <g id="Group-3" transform="translate(3.000000, 4.000000)">
+            <mask id="mask-2" fill="white">
+                <use xlink:href="#path-1"></use>
+            </mask>
+            <g id="Clip-2"></g>
+            <path d="M0.103846154,3.85 C0.0346153846,3.78 0,3.675 0,3.605 C0,3.535 0.0346153846,3.43 0.103846154,3.36 L0.588461538,2.87 C0.726923077,2.73 0.934615385,2.73 1.07307692,2.87 L1.10769231,2.905 L3.01153846,4.97 C3.08076923,5.04 3.18461538,5.04 3.25384615,4.97 L7.89230769,0.105 L7.92726923,0.105 C8.06538462,-0.035 8.27342308,-0.035 8.41153846,0.105 L8.89615385,0.595 C9.03461538,0.735 9.03461538,0.945 8.89615385,1.085 L3.35769231,6.895 C3.28846154,6.965 3.21923077,7 3.11538462,7 C3.01153846,7 2.94230769,6.965 2.87307692,6.895 L0.173076923,3.955 L0.103846154,3.85 Z" id="Fill-1" fill="#00ACE8" mask="url(#mask-2)"></path>
+        </g>
+    </g>
+</svg>

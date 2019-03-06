@@ -1,0 +1,483 @@
+@import "font";
+@import "element";
+@import "color";
+@import "media";
+
+.Vv {
+  outline: 1px solid navy;
+}
+
+.Cc {
+  border: 1px solid red;
+}
+
+html {
+  font-size: 62.5%;
+  overflow-x: hidden;
+}
+
+body {
+  @extend %font-regular;
+  font-size: 1.6rem;
+  line-height: 1.5;
+  color: $marengo;
+  background-color: #fff;
+  overflow-x: hidden;
+}
+
+a, p {
+  text-decoration: none;
+  padding: 0;
+  margin: 0;
+}
+
+a:hover {
+  text-decoration: none;
+  color: #fff;
+}
+
+img {
+  max-width: 100%;
+}
+
+.mp0 {
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+
+/*header +++++ +++++ */
+
+
+header.header-omniwatch {
+  padding-bottom: 10rem;
+  background: url(../img/header-bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position-x: center;
+  @media screen and (max-width: 991px) {
+    background-position: 30% 0;
+
+  }
+
+  .navbar {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .navbar-nav.custom {
+    text-align: left;
+  }
+
+  .omniwatch-logo {
+    width: 15%;
+    @media screen and (max-width: 991px) {
+      width: 25%;
+    }
+    @media screen and (max-width: 560px) {
+      width: 40%;
+      margin: 0 auto;
+    }
+  }
+
+
+  .header-content {
+    margin-top: 15rem;
+  }
+
+  .header-text-box {
+    p {
+      font-size: 2rem;
+    }
+  }
+
+  /*.header-timer{
+
+    .wrapper-box-white{
+      padding: 5rem;
+
+      p{
+        padding: 0;
+        font-size: 3.5em;
+        line-height: 1.2;
+        @extend %font-thin;
+
+      }
+      span{
+        font-size: 1.8rem;
+        line-height: 1.5;
+      }
+      @media screen and (max-width:550px ){
+        p{
+          font-size: 2.5em;
+        }
+        span{
+          font-size: .8rem;
+        }
+      }
+    }
+  }*/
+
+}
+
+/*end header ----- ----- */
+/*jak dziela box +++++ +++++ +++++*/
+.jak-dziale-box {
+  padding-bottom: 6rem;
+  @extend .bg-gray-section;
+
+  .wrapper-box-white {
+    padding: 0 3rem;
+    position: relative;
+    top: -3em;
+
+    .row {
+      height: 11rem;
+
+      p {
+
+      }
+    }
+  }
+
+  .list-box {
+    position: relative;
+
+    div {
+      padding: 0 4rem 0 3rem;
+    }
+
+    span {
+      position: absolute;
+      left: 0;
+      top: 1.5rem;
+      @extend h2;
+      /*@media screen and  (max-width:991px){
+       top:.5rem;
+
+      }*/
+    }
+  }
+
+
+}
+
+/*end jak dziela box ----- ----- -----*/
+
+/*metodologia +++ +++ +++ +++*/
+.metodologia {
+  padding: 6rem 0;
+}
+
+/*end metodologia ----- ----- ----- -----*/
+
+/*liczbach +++++ +++++ +++++ +++++ +++++*/
+.liczbach {
+  @extend .bg-gray-section;
+
+  padding: 5rem 0;
+}
+
+/*end liczbach*/
+
+/*korzysci*/
+.korzysci {
+  padding-bottom: 3rem;
+  background: url("../img/Bg-Korzysci.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+
+  h2 {
+    color: #fff;
+  }
+
+}
+
+/*end korzysci-----------------------------------------------*/
+
+/*raporty +++++ +++++ +++++ +++++ +++++ +++++*/
+.reporty-img {
+  margin-top: -5rem;
+}
+
+.raporty-content {
+  margin-top: 8rem;
+}
+
+/*end raporty*/
+
+/*opinie*/
+.opinie-cont {
+  padding: 5rem 0 10rem 0;
+}
+
+/*end opinie*/
+
+/*Kalkulator-box*/
+.Kalkulator-box {
+  padding: 5rem 0;
+
+  .wrapper-box-white {
+    border: 1px solid $cardinal;
+  }
+
+  .btn-cardinal {
+    font-size: 1.4rem;
+
+    &:hover {
+      color: #ffffff;
+    }
+  }
+
+  input[type="range"]::-webkit-slider-thumb {
+    background: $cardinal;
+
+    &:active {
+      background: $cardinal;
+    }
+  }
+}
+
+/*end Kalkulator-box*/
+
+/*footer*/
+.footer-page {
+  background-color: $marengo;
+  color: #fff;
+
+  padding: 2.4rem;
+}
+
+/*end footer*/
+
+/*o nas*/
+.o-nas-header-image {
+  font-weight: bold;
+}
+
+/*end o nas*/
+
+
+/*kontakt*/
+
+/*manager*/
+
+.manager-box {
+  position: relative;
+  padding: 0 2rem 4rem 2rem;
+}
+
+.manager-avatar {
+  position: relative;
+  top: -44px;
+}
+
+.manager-name {
+  font-weight: bold;
+}
+
+.manager-value {
+  margin-bottom: 2rem;
+}
+
+
+/*end manager*/
+.kontakt-box {
+  .form-control {
+    font-size: 1.6rem;
+    margin-bottom: .5rem;
+  }
+
+  input, textarea {
+    border: 1px solid #b0b4b9;
+
+    &:focus {
+
+      outline: none;
+      border: 1px solid #b0b4b9;
+      box-shadow: none;
+    }
+  }
+
+  textarea {
+    height: 97%;
+    resize: none;
+  }
+}
+
+
+.form-check.custom {
+
+  font-size: 1.3rem;
+  vertical-align: bottom;
+
+
+  .checkbox-custom label {
+    position: relative;
+    display: inline-block;
+
+    padding-left: 3rem;
+
+
+    &::before {
+      position: absolute;
+      content: "";
+      display: inline-block;
+
+      height: 1.3rem;
+      width: 1.3rem;
+
+      border: 1px solid $marengo;
+      border-radius: 3px;
+
+      margin-right: .5rem;
+
+
+      left: 0;
+      top: 0;
+    }
+
+    &::after {
+      content: "";
+      position: absolute;
+      top: 0.1rem;
+      left: 0.1rem;
+
+      height: 1.6rem;
+      width: 1.6rem;
+    }
+  }
+}
+
+.down-label-kontakt {
+  @media screen and (max-width: 1199px) {
+    left: 1.5rem;
+    padding-left: 2.7rem;
+
+  }
+
+
+}
+
+/*end kontakt*/
+
+.reser-img {
+  img {
+    padding-top: 2rem;
+    width: 60%;
+    @media screen and(max-width: 991px) {
+      width: 25%;
+    }
+  }
+
+}
+
+/*li4*/
+
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+}
+
+.plus-minus-input {
+  align-items: center;
+
+
+  .input-plus-minus {
+
+    height: 3rem;
+    border: 1px solid $grey;
+    border-radius: 5px;
+    width: 7rem;
+    line-height: 1.5;
+    text-align: center;
+
+    &:focus {
+      outline: none;
+      border: 1px solid $grey;
+    }
+  }
+
+
+  .input-group-button {
+
+
+    a {
+      display: inline-block;
+      width: 2rem;
+      height: 3rem;
+      margin: 0 1rem;
+
+
+      &.minus {
+        margin-top: 5px;
+        background: url("../img/minus.png") no-repeat center;
+      }
+
+      &.plus {
+        margin-top: 5px;
+        background: url("../img/plus.png") no-repeat center;
+      }
+    }
+
+  }
+
+
+}
+
+@media screen and (max-width: 560px) {
+  header.header-omniwatch {
+    padding-bottom: 10rem;
+    background: url(../img/slider-mobile.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: center;
+    background-position-y: bottom;
+  }
+  .header-content {
+    margin-top: 4rem !important;
+    margin-bottom: 20rem !important;
+  }
+  .box-mobile-timer {
+    position: relative;
+    top: 44rem;
+    z-index: 1000;
+
+
+  }
+  .header-text-box {
+    h2 {
+      font-size: 2.4rem;
+    }
+
+    p {
+      font-family: 'Titillium-regular', sans-serif;
+      font-size: 1.8rem !important;
+    }
+  }
+
+  .jak-dziale-box {
+    .wrapper-box-white {
+      top: 2rem;
+      margin-top: 17rem;
+    }
+  }
+  .navbar-toggler {
+    border: none !important;
+  }
+  .navbar-toggler-icon {
+    width: 3rem;
+    height: 3rem;
+
+  }
+  .navbar-nav.custom {
+    text-align: left !important;
+  }
+
+}
+
+
+/*end li4*/
+
+

@@ -1,0 +1,740 @@
+/*_____________________________________________________________________*/
+/****************includex*******************************/
+@font-face {
+  font-family: "Titillium-thin";
+  src: url("../fonts/Titillium-Thin.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Titillium-italic";
+  src: url("../fonts/Titillium-Light.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Titillium-regular";
+  src: url("../fonts/Titillium-Regular.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Titillium-bold";
+  src: url("../fonts/Titillium-Bold.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Titillium-semiBold";
+  src: url("../fonts/Titillium-Semibold.ttf") format("truetype");
+}
+/* line 45, ../sass/font.scss */
+.text.regular, .btn-cardinal, h5, .smalltext {
+  font-family: 'Titillium-regular', sans-serif;
+}
+
+/* line 48, ../sass/font.scss */
+.header-timer-two,
+.font-thin {
+  font-family: 'Titillium-thin' , sans-serif;
+}
+
+/* line 55, ../sass/font.scss */
+.text.italic, .opinie-box .opinie-wrapper p {
+  font-family: 'Titillium-italic', sans-serif;
+}
+
+/* line 61, ../sass/font.scss */
+.text.bold {
+  font-family: 'Titillium-bold', sans-serif;
+}
+
+/*Colors  */
+/*end Colors  */
+/* line 23, ../sass/color.scss */
+.color-white {
+  color: #fff;
+}
+
+/* line 27, ../sass/color.scss */
+.bgc-ll {
+  background-color: #EDF2F7;
+}
+
+/* line 30, ../sass/color.scss */
+.bgc-lb {
+  background-color: #fff;
+}
+
+/*
+
+
+.slider {
+  width: 100%;
+
+}
+
+.slick-slide {
+  margin: 0 auto;
+
+}
+
+.slick-slide img {
+  max-width: 100%;
+
+  text-align: -webkit-center;
+  margin: 0 auto;
+}
+.slick-list.draggable{
+  width: 100%;
+  padding: 0!important;
+}
+.slick-track{
+  width: 100%!important;
+}
+
+.slick-prev:before,
+.slick-next:before {
+  color: black;
+}
+
+
+.slick-slide {
+  transition: all ease-in-out .3s;
+  opacity: 1;
+}
+
+.slick-active {
+  opacity: 1;
+}
+
+.slick-current {
+  opacity: 1;
+}
+
+.slick-track {
+  display: flex !important;
+
+  width: 100%;
+  justify-content: space-between;
+  align-items: center !important;
+
+
+
+}
+
+
+.slick-slide.slick-active > div {
+  margin: 0 auto;
+}
+
+.slick-slide.slick-active {
+  display: flex !important;
+
+}
+
+
+@media screen and (max-width: 991px) {
+  .slider-for-plans {
+    .slick-slide {
+      margin: 0;
+
+      & > div {
+        text-align: right;
+        width: 100%;
+        max-width: 300px;
+        margin: 0 0 0 auto;
+
+        & > div {
+          width: 100%;
+          margin: 0 auto;
+          max-width: 100%;
+        }
+      }
+    }
+
+    .slick-slide.slick-current {
+      //margin: 0 auto;
+      margin-right: 0;
+
+      & > div {
+        margin: 0 auto;
+        text-align: center;
+      }
+    }
+
+    .slick-slide.slick-current + .slick-slide {
+      margin-right: 0;
+      //margin-left: -100px;
+      & > div {
+        margin: 0 auto 0 0;
+        text-align: left;
+      }
+    }
+
+
+  }
+}
+
+*/
+/* line 13, ../sass/element.scss */
+.animated {
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+}
+
+@-webkit-keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+/* line 40, ../sass/element.scss */
+.fadeIn {
+  -webkit-animation-name: fadeIn;
+  animation-name: fadeIn;
+}
+
+/* line 46, ../sass/element.scss */
+.btn-light-cherry {
+  display: block;
+  font-size: 1.6rem;
+  line-height: 2.5em !important;
+  width: 100%;
+  background-color: #EE245B;
+  Color: #fff !important;
+}
+
+/* line 56, ../sass/element.scss */
+.btn-cardinal {
+  line-height: 3.5rem;
+  margin: 0;
+  display: inline-block;
+  text-align: center;
+  background-color: #EC1D24;
+  color: #fff;
+  border-radius: 0.5rem;
+  width: 100%;
+  font-weight: 700;
+}
+
+/* line 71, ../sass/element.scss */
+.opinie-box {
+  position: relative;
+  padding: 0 0 0 9rem;
+}
+/* line 76, ../sass/element.scss */
+.opinie-box .img-avatar-wrapper {
+  position: absolute;
+  left: 0;
+  top: .7rem;
+  border-radius: 100%;
+  width: 7rem;
+  height: 7rem;
+}
+/* line 85, ../sass/element.scss */
+.opinie-box .opinie-wrapper {
+  padding: .9rem;
+  background-color: #EDF2F7;
+  box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.2);
+}
+/* line 90, ../sass/element.scss */
+.opinie-box .opinie-wrapper:after {
+  position: absolute;
+  top: 2rem;
+  left: 8rem;
+  transform: rotate(45deg);
+  content: '';
+  display: block;
+  width: 2rem;
+  height: 2rem;
+  background-color: inherit;
+}
+
+/* line 110, ../sass/element.scss */
+h1 {
+  color: #757575;
+  font-size: 3.2rem;
+}
+
+/* line 116, ../sass/element.scss */
+h2 {
+  color: #EC1D24;
+  font-size: 3.2rem;
+  font-weight: 600;
+  /*semibold*/
+}
+
+/* line 122, ../sass/element.scss */
+h3 {
+  font-size: 2.4rem;
+  font-weight: 600;
+  /*semibold*/
+}
+
+/* line 127, ../sass/element.scss */
+h4 {
+  font-size: 2rem;
+  color: #EC1D24;
+  font-weight: 600;
+  margin: 0;
+}
+
+/* line 134, ../sass/element.scss */
+h5 {
+  font-size: inherit;
+  font-weight: 700;
+  padding: 0;
+  margin-bottom: .5rem;
+}
+
+/* line 143, ../sass/element.scss */
+.privileges-box {
+  height: 29rem;
+  background-color: #fff;
+  opacity: .75;
+  box-shadow: 0 0.1rem 1.5rem 0 rgba(0, 0, 0, 0.15);
+  border-radius: 1.6rem;
+  /*
+    .hover-div {
+
+      !*transition: all 500ms ease;*!
+      padding: 0 20rem;
+  overflow: hidden;
+
+      display: none;
+
+
+    }
+    &:hover {
+
+      .hover-div {
+        display: block;
+        padding: 0 2rem;
+        height: auto;
+        margin-top:0;
+        !*-webkit-animation: slide-up .6s ease-out;
+        -moz-animation: slide-down .6s ease-out;*!
+      }
+
+    }*/
+}
+/* line 150, ../sass/element.scss */
+.privileges-box .row {
+  padding-top: 80px;
+  transition: .8s;
+}
+/* line 154, ../sass/element.scss */
+.privileges-box .row .hover-div {
+  opacity: 0;
+}
+/* line 158, ../sass/element.scss */
+.privileges-box .row:hover {
+  overflow-y: hidden;
+  padding-top: 20px;
+}
+/* line 162, ../sass/element.scss */
+.privileges-box .row:hover .hover-div {
+  -webkit-animation: slide-up .8s ease-out;
+  -moz-animation: slide-down .8s ease-out;
+  opacity: 1;
+}
+/* line 171, ../sass/element.scss */
+.privileges-box img {
+  max-width: 40%;
+}
+/* line 175, ../sass/element.scss */
+.privileges-box h3 {
+  margin-top: 1.5rem;
+}
+
+@-webkit-keyframes slide-up {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateY(100%);
+  }
+  100% {
+    opacity: 1;
+    -webkit-transform: translateY(0);
+  }
+}
+@-moz-keyframes slide-down {
+  0% {
+    opacity: 0;
+    -moz-transform: translateY(100%);
+  }
+  100% {
+    opacity: 1;
+    -moz-transform: translateY(0);
+  }
+}
+/* line 228, ../sass/element.scss */
+.wrapper-box-white {
+  border-radius: 1.6rem;
+  box-shadow: 0 0.1rem 1.5rem 0 rgba(0, 0, 0, 0.15);
+  background-color: #ffffff;
+}
+
+/* line 236, ../sass/element.scss */
+.bg-gray-section {
+  background-image: linear-gradient(96deg, #f8f9fc, #edf2f7);
+}
+
+/* line 240, ../sass/element.scss */
+.gray-circle {
+  display: inline-block;
+  width: 10rem;
+  height: 10rem;
+  border-radius: 100%;
+  background-color: #fff;
+  font-size: 6rem;
+  line-height: 10rem;
+  vertical-align: center;
+  color: #EC1D24;
+  text-align: center;
+  margin-bottom: 3rem;
+}
+/* line 253, ../sass/element.scss */
+.gray-circle.two {
+  width: 12rem;
+  height: 12rem;
+  line-height: 12rem;
+  margin-bottom: 2rem;
+}
+/* line 260, ../sass/element.scss */
+.gray-circle.three {
+  width: 14rem;
+  height: 14rem;
+  line-height: 14rem;
+  margin-bottom: 1rem;
+}
+/* line 267, ../sass/element.scss */
+.gray-circle p {
+  width: 200%;
+  margin-left: -50%;
+}
+
+/* line 274, ../sass/element.scss */
+.parent {
+  padding: 0;
+  background-color: #757575;
+}
+
+/* line 279, ../sass/element.scss */
+.child {
+  height: 100%;
+  width: 26rem;
+  background-color: green;
+}
+
+/* line 286, ../sass/element.scss */
+.after-ico-arrow-right {
+  margin: 0;
+  padding: 0;
+}
+/* line 290, ../sass/element.scss */
+.after-ico-arrow-right ul {
+  position: relative;
+  list-style: none;
+  padding: 0;
+}
+/* line 295, ../sass/element.scss */
+.after-ico-arrow-right ul li {
+  padding-left: 2.2rem;
+  margin-bottom: 1.6rem;
+}
+/* line 299, ../sass/element.scss */
+.after-ico-arrow-right ul li:before {
+  content: "";
+  position: absolute;
+  top: .6rem;
+  left: 0;
+  width: 1.2rem;
+  height: 1.1rem;
+  background-image: url("../img/arrow-right.png");
+  background-repeat: no-repeat;
+}
+
+/* line 319, ../sass/element.scss */
+.input-group.custom .input-group-text {
+  background: none;
+  border: 0;
+}
+
+/* line 326, ../sass/element.scss */
+.form-input-select .custom-select {
+  background: url("../img/down.png") no-repeat right 0.75rem center/8px 10px;
+  background-size: 1.5rem;
+  padding-right: 2.5rem;
+}
+/* line 336, ../sass/element.scss */
+.form-input-select .input-group label, .form-input-select .input-group .custom-select {
+  font-size: 1.6rem !important;
+}
+/* line 340, ../sass/element.scss */
+.form-input-select .input-group .input-group-text {
+  min-width: 3rem;
+}
+/* line 345, ../sass/element.scss */
+.form-input-select .input-group .custom-select {
+  border-radius: .5rem;
+  margin: 0 1rem;
+  border-color: #b0b4b9;
+}
+/* line 350, ../sass/element.scss */
+.form-input-select .input-group .custom-select:focus {
+  border-color: #b0b4b9;
+  outline: none;
+  box-shadow: none;
+}
+/* line 358, ../sass/element.scss */
+.form-input-select ol {
+  list-style: none;
+}
+/* line 364, ../sass/element.scss */
+.form-input-select ol li label {
+  width: 5%;
+}
+/* line 368, ../sass/element.scss */
+.form-input-select ol li select {
+  width: 80%;
+}
+/* line 372, ../sass/element.scss */
+.form-input-select ol li span {
+  width: 15%;
+}
+
+/* line 380, ../sass/element.scss */
+.form-check.custom .checkbox-custom input[type="checkbox"] {
+  opacity: 0;
+}
+/* line 385, ../sass/element.scss */
+.form-check.custom .checkbox-custom label {
+  position: relative;
+  display: inline-block;
+  padding-left: 3rem;
+}
+/* line 392, ../sass/element.scss */
+.form-check.custom .checkbox-custom label::before {
+  position: absolute;
+  content: "";
+  display: inline-block;
+  height: 1.9rem;
+  width: 1.9rem;
+  border: 1px solid #616872;
+  border-radius: 3px;
+  margin-right: 1rem;
+  left: 0;
+  top: 0.3rem;
+}
+/* line 410, ../sass/element.scss */
+.form-check.custom .checkbox-custom label::after {
+  content: "";
+  position: absolute;
+  top: 0.8rem;
+  left: 0.3rem;
+  height: 1.6rem;
+  width: 1.6rem;
+}
+/* line 421, ../sass/element.scss */
+.form-check.custom .checkbox-custom input[type="checkbox"] + label::after {
+  background: none;
+}
+/* line 426, ../sass/element.scss */
+.form-check.custom .checkbox-custom input[type="checkbox"]:checked + label::after {
+  background: url("../img/input/checkbox/checkbox_on.png") no-repeat;
+}
+
+/*___________________________________________________________*/
+@media screen and (max-width: 560px) {
+  /* line 435, ../sass/element.scss */
+  .Kalkulator-box .wrapper-box-white {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+  }
+}
+/* line 440, ../sass/element.scss */
+.slick-track {
+  display: flex;
+  align-items: center;
+}
+
+/* line 444, ../sass/element.scss */
+.slick-initialized .slick-slide {
+  margin: 0 37px;
+}
+@media screen and (max-width: 1200px) {
+  /* line 444, ../sass/element.scss */
+  .slick-initialized .slick-slide {
+    margin: 0 15px;
+  }
+}
+
+/* line 452, ../sass/element.scss */
+.slick-slide img {
+  max-width: 100%;
+}
+@media screen and (max-width: 1200px) {
+  /* line 452, ../sass/element.scss */
+  .slick-slide img {
+    margin: 0 auto;
+  }
+}
+
+/*
+
+.slider {
+  width: 100%;
+
+}
+.slick-slide {
+  margin: 0 auto;
+
+}
+
+.slick-slide img {
+  max-width: 100%;
+
+  text-align: -webkit-center;
+  margin: 0 auto;
+}
+
+.slick-list.draggable {
+  width: 100%;
+  padding: 0 !important;
+}
+
+!*
+.slick-track{
+  width: 100%!important;
+}*!
+
+.slick-prev:before,
+.slick-next:before {
+  color: black;
+}
+
+.slick-slide {
+  transition: all ease-in-out .3s;
+  opacity: 1;
+}
+
+.slick-active {
+  opacity: 1;
+}
+
+.slick-current {
+  opacity: 1;
+}
+
+.slick-track {
+  display: flex !important;
+
+  width: 100%;
+  justify-content: space-between;
+  align-items: center !important;
+
+
+}
+
+
+.slick-slide.slick-active > div {
+  margin: 0 auto;
+}
+
+.slick-slide.slick-active {
+  display: flex !important;
+
+}
+*/
+@media screen and (max-width: 991px) {
+  /* line 529, ../sass/element.scss */
+  .slider-for-plans .slick-slide {
+    margin: 0;
+  }
+  /* line 532, ../sass/element.scss */
+  .slider-for-plans .slick-slide > div {
+    text-align: right;
+    width: 100%;
+    max-width: 300px;
+    margin: 0 0 0 auto;
+  }
+  /* line 538, ../sass/element.scss */
+  .slider-for-plans .slick-slide > div > div {
+    width: 100%;
+    margin: 0 auto;
+    max-width: 100%;
+  }
+  /* line 546, ../sass/element.scss */
+  .slider-for-plans .slick-slide.slick-current {
+    margin-right: 0;
+  }
+  /* line 550, ../sass/element.scss */
+  .slider-for-plans .slick-slide.slick-current > div {
+    margin: 0 auto;
+    text-align: center;
+  }
+  /* line 556, ../sass/element.scss */
+  .slider-for-plans .slick-slide.slick-current + .slick-slide {
+    margin-right: 0;
+  }
+  /* line 559, ../sass/element.scss */
+  .slider-for-plans .slick-slide.slick-current + .slick-slide > div {
+    margin: 0 auto 0 0;
+    text-align: left;
+  }
+}
+/* line 572, ../sass/element.scss */
+.header-timer-two {
+  display: inline-block;
+}
+/* line 578, ../sass/element.scss */
+.header-timer-two .wrapper-box-white {
+  display: inline-block;
+  padding: .5rem 1.2rem;
+  font-size: 7rem;
+  line-height: 1.2;
+  width: 105px;
+  text-align: center;
+}
+@media screen and (max-width: 560px) {
+  /* line 578, ../sass/element.scss */
+  .header-timer-two .wrapper-box-white {
+    font-size: 3.4rem;
+    width: 100%;
+  }
+  /* line 588, ../sass/element.scss */
+  .header-timer-two .wrapper-box-white .wrapper-box-white {
+    border-radius: 5px;
+    padding: 1rem 1.4rem;
+    box-shadow: 0 10px 29px 0 rgba(0, 0, 0, 0.12);
+  }
+  /* line 595, ../sass/element.scss */
+  .header-timer-two .wrapper-box-white .smalltext {
+    font-size: 1.2rem;
+  }
+}
+
+/* line 603, ../sass/element.scss */
+.wrapper-box-white div > span {
+  display: inline-block;
+}
+
+/* line 608, ../sass/element.scss */
+.smalltext {
+  font-size: 18px;
+  line-height: 1.2em;
+  text-align: center;
+}
+
+@media screen and (max-width: 560px) {
+  /* line 619, ../sass/element.scss */
+  .Kalkulator-box .wrapper-box-white {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+  }
+}

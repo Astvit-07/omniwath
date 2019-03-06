@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Slider</title>
+    <meta charset="UTF-8">
+    <meta id="viewport" name="viewport"
+          content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="assets/slick/slick.css">
+    <link rel="stylesheet" type="text/css" href="assets/slick/slick-theme.css">
+    <link rel="stylesheet" type="text/css"
+    href="assets/includes/bootstrap-4.2.1/css/bootstrap.min.css">
+    <link href="assets/css/style.css" rel="stylesheet" type="text/css">
+    <style type="text/css">
+
+        .slider {
+            width: 100%;
+            margin: 100px auto;
+        }
+
+        .slick-slide {
+            margin: 0px 20px;
+        }
+
+        .slick-slide img {
+            width: 100%;
+        }
+
+        .slick-prev:before,
+        .slick-next:before {
+            color: black;
+        }
+
+
+        .slick-slide {
+            transition: all ease-in-out .3s;
+            opacity: .2;
+        }
+
+        .slick-active {
+            opacity: .5;
+        }
+
+        .slick-current {
+            opacity: 1;
+        }
+
+        .slick-track{
+            display: flex !important;
+
+            align-items: center !important;
+            justify-content: center !important;
+
+
+        }
+        .slick-slide.slick-active>div{
+            margin: 0 auto;
+        }
+        .slick-slide.slick-active{
+            display: flex !important;
+        }
+    </style>
+</head>
+<body>
+
+
+<section class="center slider container ">
+    <div class="">
+        <img src="assets/img/ASUS_Logo.svg" alt="...">
+    </div>
+
+    <div class="">
+        <img src="assets/img/Intel-logo.svg" alt="...">
+    </div>
+
+    <div class="">
+        <img src="assets/img/comarch_logo.png" alt="...">
+    </div>
+
+    <div class="">
+        <img src="assets/img/Trend-Micro-Logo.svg" alt="...">
+    </div>
+
+    <div class="">
+        <img src="assets/img/Cenega_logo.png" alt="...">
+    </div>
+
+    <div class="">
+        <img src="assets/img/bossg_logo.png" alt="...">
+    </div>
+
+
+</section>
+
+
+
+<script src="https://code.jquery.com/jquery-2.2.0.min.js" type="text/javascript"></script>
+<script src="assets/slick/slick.js" type="text/javascript" charset="utf-8"></script>
+<script type="text/javascript">
+    let slickSliders = [];
+    let renderSlickSlider = function (className,  defaultSlidesQty, mobileQty) {
+        let windowWidth = $(window).outerWidth();
+        if (-1 < slickSliders.indexOf(className)) {
+            $(className).slick('unslick');
+        }
+
+        mobileQty = (undefined === mobileQty || null === mobileQty)
+            ? 1 : mobileQty;
+
+        if (991 > windowWidth) {
+            defaultSlidesQty = 3;
+        }
+        if (767 > windowWidth) {
+            defaultSlidesQty = 2;
+        }
+        if (560 > windowWidth) {
+            defaultSlidesQty = mobileQty;
+        }
+        console.log(defaultSlidesQty)
+        $(className).slick({
+            dots: false,
+            // infinite: true,
+            // centerMode: true,
+            arrows: false,
+            slidesToShow: defaultSlidesQty,
+            slidesToScroll: 1,
+            adaptiveHeight: false
+        });
+        slickSliders.push(className)
+    };
+
+
+    $(document).on('ready', function () {
+        renderSlickSlider('.center', 6);
+        // renderSlickSlider('.slider2', 6, 9);
+        $(window).resize(function () {
+            renderSlickSlider('.center', 6);
+            // renderSlickSlider('.slider2', 6, 9);
+        });
+
+    });
+</script>
+
+</body>
+</html>

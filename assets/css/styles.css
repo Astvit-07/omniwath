@@ -1,0 +1,563 @@
+/*_____________________________________________________________________*/
+/****************includex*******************************/
+@font-face {
+  font-family: "Roboto-Light";
+  font-weight: 300;
+  src: url("../fonts/Roboto-Light.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Roboto-italic";
+  font-weight: 400;
+  src: url("../fonts/Roboto-Italic.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Roboto";
+  font-weight: 400;
+  src: url("../fonts/Roboto-Regular.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Roboto-Medium";
+  font-weight: 500;
+  src: url("../fonts/Roboto-Medium.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Roboto-Bold";
+  font-weight: 700;
+  src: url("../fonts/Roboto-Bold.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Roboto-Bold-Italic";
+  font-weight: 700;
+  src: url("../fonts/Roboto-Bold-Italic.ttf") format("truetype");
+}
+/* line 55, ../sass/font.scss */
+.interview h5 {
+  font-family: 'Roboto-Bold', sans-serif;
+}
+
+/* line 64, ../sass/font.scss */
+.main-gallery-wrapper .col-md-4 h1, h3, .dialog .dialog-question p, .right-dialog-question .dialog-question p {
+  color: #00ACE8;
+  font-family: "Roboto-Bold";
+  font-style: italic;
+  font-size: 30px;
+  line-height: 35px;
+  text-transform: uppercase;
+}
+
+/* line 2, ../sass/styles.scss */
+.button-secondary-medium {
+  height: 30px;
+  width: 113px;
+  background-color: #FFFFFF;
+  line-height: 17px;
+  color: #4C5C65;
+}
+
+/* line 10, ../sass/styles.scss */
+.button-secondary-medium:hover {
+  height: 30px;
+  width: 113px;
+  background-color: #00ACE8;
+  color: #fff;
+}
+
+/* line 20, ../sass/styles.scss */
+.main-gallery-wrapper .col-md-4 {
+  padding: 0;
+}
+/* line 22, ../sass/styles.scss */
+.main-gallery-wrapper .col-md-4 h1 {
+  font-style: normal;
+}
+/* line 26, ../sass/styles.scss */
+.main-gallery-wrapper .col-md-4 p {
+  color: #4C5C65;
+  font-family: Roboto;
+  font-size: 18px;
+  line-height: 21px;
+  margin: 40px auto;
+}
+/* line 38, ../sass/styles.scss */
+.main-gallery-wrapper .discription {
+  padding: 0;
+  height: 450px;
+  background: url("../img/gallery-wrapper-discription.png") no-repeat;
+  margin-bottom: 140px;
+}
+
+/* line 46, ../sass/styles.scss */
+.mybtn-red {
+  display: block;
+  background-color: #EE245B;
+  line-height: 2em;
+  font-size: 20px;
+  text-decoration: none;
+  color: #fff;
+  border-radius: 5px;
+  width: 300px;
+  margin: 0 auto;
+}
+
+/* line 57, ../sass/styles.scss */
+.mybtn-red:hover {
+  color: white;
+  text-decoration: none;
+}
+
+/* line 68, ../sass/styles.scss */
+.row-image-group div {
+  margin: 0;
+  padding: 0;
+}
+/* line 73, ../sass/styles.scss */
+.row-image-group img {
+  height: 235px;
+  width: 235px;
+  margin-bottom: 50px;
+}
+/* line 79, ../sass/styles.scss */
+.row-image-group p {
+  color: rgba(76, 92, 101, 0.8);
+  font-family: "Roboto-Bold";
+  font-size: 16px;
+  line-height: 19px;
+  padding-left: 60px;
+  padding-right: 60px;
+}
+
+/* line 93, ../sass/styles.scss */
+.arrow-down {
+  background: url("../img/arrow-down.png") no-repeat center;
+  height: 300px;
+  margin-top: -100px;
+  margin-bottom: 20px;
+}
+
+/* line 104, ../sass/styles.scss */
+.zob-pak p {
+  color: #4C5C65;
+  font-family: Roboto;
+  font-size: 13px;
+  line-height: 18px;
+  text-align: center;
+}
+
+/* line 122, ../sass/styles.scss */
+.dialog .dialog-question {
+  height: 188px;
+  width: 408px;
+  border-radius: 28px;
+  background-color: #FFFFFF;
+  padding-top: 70px;
+}
+/* line 133, ../sass/styles.scss */
+.dialog .dialog-question p span {
+  color: #4C5C65;
+}
+/* line 137, ../sass/styles.scss */
+.dialog .dialog-question:after {
+  content: "";
+  position: absolute;
+  left: 40px;
+  bottom: -30px;
+  height: 30px;
+  width: 30px;
+  border-radius: 0 0 100% 0;
+  display: block;
+  background: inherit;
+}
+/* line 155, ../sass/styles.scss */
+.dialog .dialog-answer {
+  margin-bottom: 50px;
+  position: relative;
+  height: 149px;
+  width: 477px;
+  border-radius: 28px;
+  background-color: rgba(109, 204, 243, 0.8);
+  padding-top: 60px;
+  font-family: Roboto-Bold;
+  font-size: 16px;
+  font-style: italic;
+  line-height: 19px;
+  color: #fff;
+  text-align: center;
+  margin-top: -20px;
+}
+/* line 176, ../sass/styles.scss */
+.dialog .dialog-answer:after {
+  content: "";
+  position: absolute;
+  right: 45px;
+  bottom: -30px;
+  height: 30px;
+  width: 30px;
+  border-radius: 0 0 0 100%;
+  display: block;
+  background: inherit;
+}
+
+/* line 194, ../sass/styles.scss */
+.interview {
+  margin-bottom: 100px;
+}
+/* line 197, ../sass/styles.scss */
+.interview p {
+  color: #4C5C65;
+  font-family: Roboto;
+  font-size: 16px;
+  line-height: 19px;
+}
+/* line 204, ../sass/styles.scss */
+.interview h5 {
+  padding-top: 20px;
+  padding-left: 30px;
+  margin: 0;
+}
+/* line 209, ../sass/styles.scss */
+.interview h5 span {
+  color: #00ACE8;
+}
+/* line 213, ../sass/styles.scss */
+.interview img {
+  height: 80%;
+}
+
+/* line 219, ../sass/styles.scss */
+.step-research {
+  position: relative;
+}
+/* line 221, ../sass/styles.scss */
+.step-research span {
+  z-index: -1;
+  position: absolute;
+  display: block;
+  height: 106px;
+  left: 20%;
+  top: -60%;
+  width: 91px;
+  opacity: 0.8;
+  color: #FFFFFF;
+  font-family: Roboto-Regular;
+  font-size: 80px;
+  line-height: 106px;
+}
+/* line 242, ../sass/styles.scss */
+.step-research div {
+  height: 106px;
+}
+/* line 246, ../sass/styles.scss */
+.step-research h4 {
+  color: #00ACE8;
+  font-family: Roboto-Bold;
+  font-size: 16px;
+  line-height: 19px;
+  text-transform: uppercase;
+}
+/* line 254, ../sass/styles.scss */
+.step-research p {
+  opacity: 0.8;
+  color: #4C5C65;
+  font-family: Roboto-Bold;
+  font-size: 13px;
+  line-height: 15px;
+}
+
+/* line 269, ../sass/styles.scss */
+.down-navbar {
+  height: 80px;
+  background-color: #142739;
+}
+/* line 274, ../sass/styles.scss */
+.down-navbar .nav li a {
+  color: #fff;
+}
+/* line 277, ../sass/styles.scss */
+.down-navbar .nav li a:hover {
+  opacity: .5;
+}
+/* line 281, ../sass/styles.scss */
+.down-navbar .copyright {
+  height: 18px;
+  opacity: 0.5;
+  color: #FFFFFF;
+  font-family: Roboto-Regular;
+  font-size: 13px;
+  line-height: 18px;
+  text-align: center;
+}
+
+/* line 296, ../sass/styles.scss */
+.Bk {
+  border: 1px solid red;
+}
+
+/* line 300, ../sass/styles.scss */
+.Bb {
+  border: 1px solid Blue;
+}
+
+/* line 312, ../sass/styles.scss */
+.carousel-test .carousel-indicators li {
+  background: #fff;
+  width: 15px;
+  height: 15px;
+  border-radius: 100%;
+}
+/* line 319, ../sass/styles.scss */
+.carousel-test .carousel-indicators li.active {
+  border: 5px solid #fff;
+  border-radius: 100%;
+  background: #142739;
+}
+
+/* line 333, ../sass/styles.scss */
+.dialog-first-slide .dialog-question {
+  height: 160px;
+  padding-top: 60px;
+}
+/* line 337, ../sass/styles.scss */
+.dialog-first-slide .dialog-answer {
+  z-index: 100;
+  height: 180px;
+  padding-top: 80px;
+}
+/* line 342, ../sass/styles.scss */
+.dialog-first-slide img {
+  margin-top: -100px;
+  height: 400px;
+  width: 800px;
+}
+/* line 350, ../sass/styles.scss */
+.dialog-first-slide .sll {
+  margin-top: -100px;
+}
+
+/* line 357, ../sass/styles.scss */
+.right-dialog-question {
+  margin-bottom: 50px;
+}
+/* line 362, ../sass/styles.scss */
+.right-dialog-question .carousel-indicators li {
+  background: #fff;
+  width: 15px;
+  height: 15px;
+  border-radius: 100%;
+}
+/* line 369, ../sass/styles.scss */
+.right-dialog-question .carousel-indicators li.active {
+  border: 5px solid #fff;
+  border-radius: 100%;
+  background: #142739;
+}
+/* line 377, ../sass/styles.scss */
+.right-dialog-question .carousel-inner img {
+  margin: 0 auto;
+  height: 200px;
+}
+/* line 383, ../sass/styles.scss */
+.right-dialog-question .dialog-question {
+  height: 154px;
+  width: 408px;
+  border-radius: 28px;
+  background-color: #FFFFFF;
+}
+/* line 390, ../sass/styles.scss */
+.right-dialog-question .dialog-question p {
+  padding-top: 60px;
+}
+/* line 395, ../sass/styles.scss */
+.right-dialog-question .dialog-question p span {
+  color: #4C5C65;
+}
+/* line 399, ../sass/styles.scss */
+.right-dialog-question .dialog-question:after {
+  content: "";
+  position: absolute;
+  right: 40px;
+  bottom: -30px;
+  height: 30px;
+  width: 30px;
+  border-radius: 0 0 0 100%;
+  display: block;
+  background: inherit;
+}
+/* line 415, ../sass/styles.scss */
+.right-dialog-question .dialog-answer {
+  margin-bottom: 50px;
+  position: relative;
+  height: 300px;
+  width: 620px;
+  border-radius: 28px;
+  background-color: rgba(109, 204, 243, 0.8);
+  padding-top: 60px;
+  font-family: Roboto-Bold;
+  font-size: 16px;
+  font-style: italic;
+  line-height: 19px;
+  color: #fff;
+  text-align: center;
+  margin-top: -20px;
+}
+/* line 436, ../sass/styles.scss */
+.right-dialog-question .dialog-answer:after {
+  content: "";
+  position: absolute;
+  left: 45px;
+  bottom: -30px;
+  height: 30px;
+  width: 30px;
+  border-radius: 0 0 100% 0;
+  display: block;
+  background: inherit;
+}
+
+/* line 455, ../sass/styles.scss */
+.dialog-dostane {
+  margin-top: 150px;
+  margin-bottom: 50px;
+}
+/* line 459, ../sass/styles.scss */
+.dialog-dostane .dialog-question {
+  height: 154px;
+}
+/* line 462, ../sass/styles.scss */
+.dialog-dostane .dialog-answer {
+  height: 150px;
+}
+
+/* line 467, ../sass/styles.scss */
+.dialog-jac-zacaz {
+  margin-top: 150px;
+  margin-bottom: 50px;
+}
+/* line 471, ../sass/styles.scss */
+.dialog-jac-zacaz .dialog-question {
+  padding-top: 60px;
+  height: 154px;
+}
+/* line 475, ../sass/styles.scss */
+.dialog-jac-zacaz .dialog-answer {
+  height: 150px;
+  padding-left: 50px;
+}
+
+/* line 480, ../sass/styles.scss */
+.konto {
+  margin-bottom: 150px;
+}
+
+/* line 486, ../sass/styles.scss */
+.pakiety {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  text-align: center;
+}
+/* line 492, ../sass/styles.scss */
+.pakiety p {
+  line-height: 38px;
+}
+/* line 497, ../sass/styles.scss */
+.pakiety .col {
+  background-color: #fff;
+  border: 1px solid white;
+  height: 38px;
+}
+/* line 507, ../sass/styles.scss */
+.pakiety .pakiety-header-img .col {
+  text-align: left;
+  height: 80px;
+}
+/* line 511, ../sass/styles.scss */
+.pakiety .pakiety-header-img .pakiet-free {
+  background-image: url("../img/free.png");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: bottom;
+}
+/* line 517, ../sass/styles.scss */
+.pakiety .pakiety-header-img .pakiet-basic {
+  background-image: url("../img/basic.png");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: bottom;
+}
+/* line 523, ../sass/styles.scss */
+.pakiety .pakiety-header-img .pakiet-premium {
+  background-image: url("../img/premium.png");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: bottom;
+}
+/* line 529, ../sass/styles.scss */
+.pakiety .pakiety-header-img .pakiet-enterprise {
+  background-image: url("../img/enterprise.png");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: bottom;
+}
+/* line 541, ../sass/styles.scss */
+.pakiety .pakiety-header .col {
+  position: relative;
+  text-align: left;
+  font-family: Roboto-Bold;
+}
+/* line 547, ../sass/styles.scss */
+.pakiety .pakiety-header .col span {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  width: 83px;
+  height: 83px;
+  border-radius: 100%;
+  background-color: #142739;
+}
+/* line 556, ../sass/styles.scss */
+.pakiety .pakiety-header .col span p {
+  color: #00ACE8;
+  padding-top: 22px;
+  vertical-align: center;
+  text-align: center;
+  line-height: 13px;
+  font-family: Roboto-Bold;
+}
+/* line 574, ../sass/styles.scss */
+.pakiety .typy-pytan {
+  font-family: Roboto-Bold;
+}
+/* line 579, ../sass/styles.scss */
+.pakiety .qty-ankiet .col {
+  background-color: #F8FBFE;
+  border: 1px solid #F8FBFE;
+}
+/* line 587, ../sass/styles.scss */
+.pakiety .wiecej {
+  font-size: 10px;
+  text-transform: uppercase;
+  color: rgba(76, 92, 101, 0.5);
+  letter-spacing: 1.82px;
+}
+/* line 602, ../sass/styles.scss */
+.pakiety .wybieram-btn {
+  margin-top: 10px;
+}
+/* line 604, ../sass/styles.scss */
+.pakiety .wybieram-btn .col {
+  background-color: #EE245B;
+}
+/* line 610, ../sass/styles.scss */
+.pakiety .wybieram-btn .wybieram a {
+  display: block;
+  background-color: #EE245B;
+  line-height: 30px;
+  font-size: 13px;
+  text-decoration: none;
+  color: #fff;
+  width: 100%;
+  text-align: center;
+}
+/* line 620, ../sass/styles.scss */
+.pakiety .wybieram-btn .wybieram a:hover {
+  color: white;
+  text-decoration: none;
+}

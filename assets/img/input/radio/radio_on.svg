@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="15px" height="15px" viewBox="0 0 15 15" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.6 (67491) - http://www.bohemiancoding.com/sketch -->
+    <title>input/radio/on</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <circle id="path-1" cx="2.5" cy="2.5" r="2.5"></circle>
+    </defs>
+    <g id="input/radio/on" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <circle id="Oval" stroke="#A2A9B0" fill-rule="nonzero" cx="7.5" cy="7.5" r="7"></circle>
+        <g id="color/primary/normal" transform="translate(5.000000, 5.000000)">
+            <mask id="mask-2" fill="white">
+                <use xlink:href="#path-1"></use>
+            </mask>
+            <use id="Mask" fill="#D8D8D8" fill-rule="nonzero" xlink:href="#path-1"></use>
+            <g mask="url(#mask-2)" fill="#00ACE8" fill-rule="nonzero" id="Rectangle">
+                <g transform="translate(-5.000000, -5.000000)">
+                    <rect x="0" y="0" width="15" height="15"></rect>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

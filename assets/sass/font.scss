@@ -1,0 +1,82 @@
+//@extend %font-bold-italic;
+//@extend %font-bold;
+//@extend %font-regular;
+//@extend %font-italic;
+//@extend %font-light;
+//@extend %font-medium;
+
+@mixin font-face($name, $path, $weight: null, $style: null,
+                 $exts: ttf) {
+                 //$exts: eot woff2 woff ttf svg) {
+  $src: null;
+  $extmods: (
+          eot: "?",
+          svg: "#" + str-replace($name, " ", "_")
+  );
+  $formats: (
+          otf: "opentype",
+          ttf: "truetype"
+  );
+  @each $ext in $exts {
+    $extmod: if(map-has-key($extmods, $ext), $ext + map-get($extmods, $ext), $ext);
+    $format: if(map-has-key($formats, $ext), map-get($formats, $ext), $ext);
+    $src: append($src, url(quote($path + "." + $extmod)) format(quote($format)), comma);
+  }
+  @font-face {
+    font-family: quote($name);
+    font-style: $style;
+    font-weight: $weight;
+    src: $src;
+  }
+}
+/*_____________________________________________________________________*/
+/****************includex*******************************/
+
+@include font-face("Titillium-thin", "../fonts/Titillium-Thin");
+@include font-face("Titillium-italic", "../fonts/Titillium-Light");
+@include font-face("Titillium-regular", "../fonts/Titillium-Regular");
+@include font-face("Titillium-bold", "../fonts/Titillium-Bold");
+@include font-face("Titillium-semiBold", "../fonts/Titillium-Semibold");
+
+
+
+
+
+%font-regular {
+  font-family: 'Titillium-regular', sans-serif;
+}
+%font-thin,
+.font-thin{
+  font-family: 'Titillium-thin' , sans-serif;
+}
+
+
+
+%font-italic {
+  font-family: 'Titillium-italic', sans-serif;
+}
+%font-semibold{
+  font-family: 'Titillium-semiBold', sans-serif;
+}
+%font-bold {
+  font-family: 'Titillium-bold', sans-serif;
+}
+
+
+
+
+
+
+
+.text{
+  &.bold{
+    @extend %font-bold;
+  }
+  &.regular{
+    @extend %font-regular;
+  }
+  &.italic{
+
+    @extend %font-italic;
+  }
+}

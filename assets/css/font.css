@@ -1,0 +1,41 @@
+/*_____________________________________________________________________*/
+/****************includex*******************************/
+@font-face {
+  font-family: "Titillium-thin";
+  src: url("../fonts/Titillium-Thin.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Titillium-italic";
+  src: url("../fonts/Titillium-Light.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Titillium-regular";
+  src: url("../fonts/Titillium-Regular.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Titillium-bold";
+  src: url("../fonts/Titillium-Bold.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Titillium-semiBold";
+  src: url("../fonts/Titillium-Semibold.ttf") format("truetype");
+}
+/* line 45, ../sass/font.scss */
+.text.regular {
+  font-family: 'Titillium-regular', sans-serif;
+}
+
+/* line 48, ../sass/font.scss */
+.font-thin {
+  font-family: 'Titillium-thin' , sans-serif;
+}
+
+/* line 55, ../sass/font.scss */
+.text.italic {
+  font-family: 'Titillium-italic', sans-serif;
+}
+
+/* line 61, ../sass/font.scss */
+.text.bold {
+  font-family: 'Titillium-bold', sans-serif;
+}
